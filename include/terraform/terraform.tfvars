@@ -1,0 +1,8 @@
+project_id   = "//GCP_PROJECT_ID"
+region       = "europe-west1"
+project_name   = "skin-care-pipeline"
+storage_class  = "STANDARD"
+cluster_name   = "skincare-dataproc-cluster"
+machine_type = "e2-standard-2"
+dataset_name = "skincare_processed"
+service_account_email = "//GCP_SERVICE_ACCOUNT_EMAIL"
