@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: stg_brands
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          min_value: 1
+    columns:
+      - name: brand_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_customers
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          min_value: 1
+    columns:
+      - name: author_id
+        tests:
+          - not_null
+          - unique
+      - name: skin_type
+        tests:
+          - dbt_expectations.expect_column_values_to_be_in_set:
+              value_set: ["normal", "dry", "oily", "combination"]
+
+  - name: stg_products
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          min_value: 1
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_reviews
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          min_value: 1
+    columns:
+      - name: review_id
+        tests:
+          - not_null
+          - unique
+      - name: rating
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 1
+              max_value: 5
