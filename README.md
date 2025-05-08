@@ -53,7 +53,7 @@ The pipeline includes the following stages:
 
 | Tool / Language     | Purpose                                      |
 |---------------------|----------------------------------------------|
-| Google Cloud Storage| Store raw CSV files + Pyspark code           |
+| Google Cloud Storage| Store raw CSV files + PySpark code           |
 | Dataproc + PySpark  | Data transformation and cleaning            |
 | BigQuery            | Data warehousing and SQL-based querying     |
 | dbt                 | Data modeling and testing         |
