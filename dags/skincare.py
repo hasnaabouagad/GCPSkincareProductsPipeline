@@ -16,7 +16,7 @@ pyspark_job = {
     "reference": {"project_id": "PROJECT_ID"},
     "placement": {"cluster_name": "skincare-dataproc-cluster"},
     "pyspark_job": {
-        "main_python_file_uri": "gs://BUCKET_NAME/spark/Spark_Processing.py",
+        "main_python_file_uri": "gs://BUCKET_NAME/spark/PySpark_Processing.py",
     },
 }
 
