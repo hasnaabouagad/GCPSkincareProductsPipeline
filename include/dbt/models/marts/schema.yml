@@ -1,0 +1,58 @@
+version: 2
+
+models:
+  - name: products_skin_type
+    columns:
+      - name: avg_rating
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
+
+      - name: avg_price
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
+
+  - name: rating_price_product
+    columns:
+      - name: avg_rating
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
+
+      - name: avg_price
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
+
+  - name: brands_rating
+    columns:
+      - name: avg_brand_rating
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
+
+  - name: total_feedback_product
+    columns:
+      - name: total_feedback_count
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
+
+      - name: total_pos_feedback_count
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
+
+      - name: total_neg_feedback_count
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_greater_than_or_equal_to:
+              value: 0
