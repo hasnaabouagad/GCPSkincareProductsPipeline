@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: skincare_processed
+    database: PROJECT_ID 
+
+    tables:
+      - name: products
+      - name: reviews
