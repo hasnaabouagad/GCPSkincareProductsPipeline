@@ -1,0 +1,13 @@
+skincare_processed:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/gcp/service_account.json
+    project: PROJECT_ID
+    dataset: skincare_processed
+    threads: 1
+    timeout_seconds: 300
+    location: europe-west1
+
