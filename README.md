@@ -101,6 +101,7 @@ The dashboard provides insights on:
 🖼️ **Dashboard Preview**:  
 ![Dashboard](.github/images/dashboard.jpg) 
 
+![Skincare_Dashboard_page-0001](https://github.com/user-attachments/assets/daaf9d60-c7f2-4faf-ac12-ac37a63bb72f)
 
 ---
 
