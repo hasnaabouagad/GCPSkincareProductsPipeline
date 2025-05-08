@@ -1,0 +1,8 @@
+
+name: 'skincare_processed'
+
+profile: 'skincare_processed'
+
+models:
+  skincare_processed:
+    materialized: table
