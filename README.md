@@ -10,15 +10,15 @@ This project implements an end-to-end data pipeline for processing skincare prod
 ---
 
 ### 📚 Table of Contents
-- [Project Overview](#-project-overview)
-  - [Dataset](#-dataset)
-  - [Architecture](#-architecture)
-  - [Technologies Used](#-technologies-used)
-  - [Data Model](#-data-model)
-  - [Dashboard](#-dashboard)
-- [Setup](#️-setup)
-  - [Prerequisites](#-prerequisites)
-  - [Useful Commands](#-useful-commands)
+- [Project Overview](#project-overview)
+  - [Dataset](#1-🧾-dataset)
+  - [Architecture](#2-🧱-architecture)
+  - [Technologies Used](#3-🛠-technologies-used)
+  - [Data Model](#4-🧮-data-model)
+  - [Dashboard](#5-📊-dashboard)
+- [Setup](#️setup)
+  - [Prerequisites](#️-prerequisites)
+  - [Useful Commands](#️-useful-commands)
 
 
 
