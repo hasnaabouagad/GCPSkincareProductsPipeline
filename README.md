@@ -4,7 +4,7 @@ This project implements an end-to-end data pipeline for processing skincare prod
 
 ---
 
-![Diagram](.github/images/pipeline.png) <!-- Replace with your actual diagram path -->
+![Diagram](.github/images/pipeline.png) 
 
 ---
 
@@ -99,7 +99,9 @@ The dashboard provides insights on:
 
 
 🖼️ **Dashboard Preview**:  
-![Dashboard](.github/images/dashboard.jpg) <!-- Replace with actual screenshot -->
+![Dashboard](.github/images/dashboard.jpg) 
+
+
 ---
 
 ## ⚙️ Setup
