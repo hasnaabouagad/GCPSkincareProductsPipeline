@@ -30,7 +30,7 @@ The dataset consists of:
 - `product_info.csv`: contains product name, brand, category, price, ingredients, highlights ...etc.
 - `reviews_1.csv` to `reviews_5.csv`: customer reviews with product ID, rating, feedback_count ...etc.
 
-📥 **Download**: [Link to dataset](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews) *(or your hosted version)*
+📥 **Download**: [Link to dataset](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews)
 
 ---
 
