@@ -1,0 +1,67 @@
+version: 2
+
+models:
+
+
+  - name: dim_customers
+    description: Customer dimension with one row per unique customer
+    columns:
+      - name: customer_key
+        description: Surrogate key for customers
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_products
+    description: Product dimension with one row per unique product
+    columns:
+      - name: product_key
+        description: Surrogate key for products
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_date
+    description: Date dimension
+    columns:
+      - name: date_key
+        description: Surrogate key for dates
+        tests:
+          - not_null
+          - unique
+
+  
+
+  - name: fact_care
+    description: Fact table with skincare interactions and metrics
+    columns:
+      - name: customer_key
+        description: Foreign key to dim_customers
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_key
+
+      - name: product_key
+        description: Foreign key to dim_products
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_products')
+              field: product_key
+
+      - name: date_key
+        description: Foreign key to dim_date
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+
+      - name: price_usd
+        description: Price of the product in USD
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: FLOAT64
