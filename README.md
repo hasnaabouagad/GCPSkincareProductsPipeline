@@ -1,10 +1,11 @@
 # 🌸 GCP Skincare Products Pipeline
 
-This project implements an end-to-end data pipeline for processing skincare products and reviews data from Sephora, using **Google Cloud Platform (GCP)**, **PySpark**, **Docker**, **Airflow**, **dbt**, and **Terraform**.
+This project implements an end-to-end data pipeline for processing skincare products and reviews data from Sephora, using **Google Cloud Platform (GCP)**, **PySpark**, **Docker**, **Airflow**, **dbt**, **Great Expectations**, and **Terraform**.
 
 ---
 
-![Diagram](.github/images/pipeline.png) 
+![Sans-titre-2025-05-06-1647](https://github.com/user-attachments/assets/2677e58d-395f-4a70-bc8b-f0587a28143e)
+ 
 
 ---
 
@@ -99,8 +100,7 @@ The dashboard provides insights on:
 
 
 🖼️ **Dashboard Preview**:  
-![Dashboard](.github/images/dashboard.jpg) 
-
+ 
 ![Skincare_Dashboard_page-0001](https://github.com/user-attachments/assets/daaf9d60-c7f2-4faf-ac12-ac37a63bb72f)
 
 ---
