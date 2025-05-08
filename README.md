@@ -99,8 +99,7 @@ The dashboard provides insights on:
 
 
 🖼️ **Dashboard Preview**:  
-![Dashboard](docs/images/dashboard.jpg) <!-- Replace with actual screenshot -->
-
+![Dashboard](.github/images/dashboard.jpg) <!-- Replace with actual screenshot -->
 ---
 
 ## ⚙️ Setup
